@@ -1,0 +1,24 @@
+            /*PERSONALIZAÇÃO BARRA DE ROLAGEM*/
+::-webkit-scrollbar {
+    width: 8px; /* Largura da barra de rolagem */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #fdfbfb; /* Cor de fundo da pista */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: orangered; /* Cor da parte rolável */
+    border-radius: 10px; /* Bordas arredondadas */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #fd0404; /* Cor ao passar o mouse */
+  }
+  
+  /* Para Firefox */
+  .scroll-container {
+    scrollbar-width: thin; /* Define a largura da barra de rolagem */
+    scrollbar-color: orangered #1a1a1a; /* Cor do polegar e da pista */
+  }
+  
